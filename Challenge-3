@@ -1,0 +1,27 @@
+# Preston Hudson 11/20/19 Challenge 3 Written in Python
+
+#1. Print three seperate strings
+
+print("This is the tale of Preston Hudson.")
+print("A software engineer learning Python.")
+print("Will he finish? The world may never know.")
+
+#2. Print if a variable is less then or greater then 10
+
+prestons_age = 23
+
+if prestons_age < 10:
+    print("Preston is still a child.")
+elif prestons_age >= 10:
+    print("Preston is a old man. XD")
+
+#3. print if a variable is less then or equal to 10, greater then 10 or greater then 25.
+
+if prestons_age <= 10:
+    print("Preston is a child.")
+elif prestons_age > 10 and prestons_age <= 25:
+    print("Preston is a young adult/teenager.")
+elif prestons_age > 25:
+    print("Preston is a adult.")
+
+#4. Hello
