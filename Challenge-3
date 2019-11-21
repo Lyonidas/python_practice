@@ -24,4 +24,9 @@ elif prestons_age > 10 and prestons_age <= 25:
 elif prestons_age > 25:
     print("Preston is a adult.")
 
-#4. Hello
+#4. Create a program that divides two variables and prints the remainder
+
+x = 100
+y = 5
+z = x / y
+print(z)
