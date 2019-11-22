@@ -1,6 +1,18 @@
 # Preston Hudson 11/21/19 Challenge 4 Written in Python
 
-#1.
+#1. Write a function that takes a number as input and returns that number squared.
 
 def f(x):
     return x ** 2
+
+z = f(4)
+print(z)
+
+#2. Create a function that accepts a string as a parameter and prints it.
+
+def string(x):
+    print(x)
+
+string("Hello.")
+
+#3.
