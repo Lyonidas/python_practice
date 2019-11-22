@@ -1,0 +1,6 @@
+# Preston Hudson 11/21/19 Challenge 4 Written in Python
+
+#1.
+
+def f(x):
+    return x ** 2
