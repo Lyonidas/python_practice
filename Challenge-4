@@ -23,4 +23,28 @@ def five_letters(a, b, c, d = 4, e = 5):
 
 five_letters(1, 2, 3)
 
-#4. 
+#4. Write a program with 2 functions. The first function takes a integer then divides it by two. The second function takes the first functions output then multiplies it by 4.
+
+def divided_by_two(x):
+    return x / 2
+
+def multiply_by_four(y):
+    return y * 4
+
+y = divided_by_two(10)
+
+result = multiply_by_four(y)
+
+print(result)
+
+#5. Write a function that converts a string into a float
+
+def string_float(string):
+    try:
+        number = float(string)
+        print(number)
+    except ValueError:
+        print("Input has to me string number.")
+
+string_float("21")
+string_float("Hundo.")
