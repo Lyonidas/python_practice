@@ -35,4 +35,11 @@ me_dictionary = {"Eye Color":"Hazel",
 
 print(me_dictionary)
 
-#4. 
+#4. Write a program that lets the user ask details about you from the me_dictionary.
+
+n = input("Type a detail about me you would like to know:")
+if n in me_dictionary:
+    meDetail = me_dictionary[n]
+    print(meDetail)
+else:
+    print("Detail not found.")
