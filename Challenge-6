@@ -8,3 +8,5 @@ print(author[1])
 print(author[2])
 print(author[3])
 print(author[4])
+
+#2. Write a program that collects two strings from the user, inserts them into a string and prints a new string.
