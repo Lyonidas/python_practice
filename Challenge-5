@@ -23,4 +23,13 @@ locations.append(dallas)
 
 print(locations)
 
-#3.
+#3. Create a dictionary of things that describe you.
+
+me_dictionary = {"Eye Color":"Hazel",
+                    "First Name":"Preston",
+                    "Last Name":"Hudson",
+                    "Age":"23"}
+
+print(me_dictionary)
+
+#4. 
