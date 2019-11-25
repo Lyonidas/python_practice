@@ -43,3 +43,12 @@ if n in me_dictionary:
     print(meDetail)
 else:
     print("Detail not found.")
+
+#5. Create a dictionary mapping your favorite muscians to a list of your favorite songs by them.
+
+songs = ["Not Afraid", "Can't stop the feeling", "Stitches"]
+music = {"Eminem":songs[0],
+            "Justin Timberlake":songs[1],
+            "Shawn Mendez":songs[2]}
+
+print(music)
