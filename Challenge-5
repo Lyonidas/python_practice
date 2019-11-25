@@ -28,7 +28,10 @@ print(locations)
 me_dictionary = {"Eye Color":"Hazel",
                     "First Name":"Preston",
                     "Last Name":"Hudson",
-                    "Age":"23"}
+                    "Age":"23",
+                    "Favorite Color":"Blue",
+                    "Height":"6'3",
+                    "Favorite Author":"J.R.R Tolkien"}
 
 print(me_dictionary)
 
