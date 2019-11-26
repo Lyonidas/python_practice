@@ -15,3 +15,8 @@ response_one = input("Enter a noun: ")
 response_two = input("Enter a place: ")
 
 print("Yesterday I wrote a "+response_one+". I sent it to "+response_two+"!")
+
+#3. Use a method to capitalize a string.
+
+capital_string = "aldous Huxley was born in 1894.".capitalize()
+print(capital_string)
