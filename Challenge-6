@@ -20,3 +20,7 @@ print("Yesterday I wrote a "+response_one+". I sent it to "+response_two+"!")
 
 capital_string = "aldous Huxley was born in 1894.".capitalize()
 print(capital_string)
+
+#4. Call a method on a string that splits it into a list.
+
+"Where now?. Who now?. When now?.".split(".")
