@@ -26,3 +26,14 @@ print(capital_string)
 "Where now?. Who now?. When now?.".split(".")
 
 #5. Take the list ... and turn it into a grammer correct string.
+
+words = ["The",
+        "Fox",
+        "jumped",
+        "over",
+        "the",
+        "fence",
+        "."]
+
+sentence = " ".join(words)
+print(sentence)
