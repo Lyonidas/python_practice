@@ -47,3 +47,11 @@ print(sky)
 #7. Use a method to find the first index of the character "m" in the string "Hemingway".
 
 print("Hemingway".index("m"))
+
+#8. Find dialogue from your favorite book and turn it into a string.
+
+socrates = """True knowledge, is the wisdom to admit that you know nothing."""
+
+print(socrates[:])
+
+#9. 
