@@ -58,3 +58,8 @@ print(socrates[:])
 
 print("Three "+"Three "+"Three")
 print("Three " * 3)
+
+#10. Slice the string ... to only include characters before the comma.
+
+slice = """It was a bright cold day in April, and the clocks were striking thirteen."""
+print(slice[0:34])
