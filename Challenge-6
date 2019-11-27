@@ -37,3 +37,11 @@ words = ["The",
 
 sentence = " ".join(words)
 print(sentence)
+
+#6. Replace all s's in a sentence with a $
+
+sky = "A screaming comes across the sky."
+sky = sky.replace("s", "$")
+print(sky)
+
+#7. Use a method to find the first index of the character "m" in the string "Hemingway".
