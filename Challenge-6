@@ -54,4 +54,7 @@ socrates = """True knowledge, is the wisdom to admit that you know nothing."""
 
 print(socrates[:])
 
-#9. 
+#9. Create a string ... using concatination then multiplication.
+
+print("Three "+"Three "+"Three")
+print("Three " * 3)
