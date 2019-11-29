@@ -1,0 +1,18 @@
+# Preston Hudson 11/29/19 Challenge 8 Written in Python
+
+#1. Call a different method from statistics.
+
+import statistics
+
+nums = [1, 4, 6, 7, 9, 8, 8, 8, 10, 2, 4, 5]
+
+print(statistics.quantiles(nums))
+
+#2. Import and call the function from another module.
+
+import cubed
+
+print(cubed.number_cubed(9))
+
+
+#Completed
