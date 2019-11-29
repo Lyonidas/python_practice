@@ -63,3 +63,6 @@ print("Three " * 3)
 
 slice = """It was a bright cold day in April, and the clocks were striking thirteen."""
 print(slice[0:34])
+
+
+#Complete
