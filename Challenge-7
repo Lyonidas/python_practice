@@ -43,3 +43,6 @@ for i in list1:
     for j in list2:
         multiply.append(i * j)
 print(multiply)
+
+
+#Complete
