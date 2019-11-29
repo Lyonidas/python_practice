@@ -13,3 +13,6 @@ print(statistics.quantiles(nums))
 import cubed
 
 print(cubed.number_cubed(9))
+
+
+#Completed
