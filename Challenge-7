@@ -20,3 +20,15 @@ for show in shows:
     print(show)
     print(index)
     index = index + 1
+
+#4. Write a program with a infinite loop with option to quit. Add a list of numbers and have the user try to guess the number.
+
+while True:
+    a = input("Guess a number from 1 to 10 or press q to quit: ")
+    if a == "7":
+        print("You got it right!")
+        break
+    elif a == "q":
+        break
+    else:
+        print("Try again!")
