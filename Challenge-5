@@ -56,3 +56,6 @@ print(music)
 #6. When would you use a set in python?
 
 #A common use of sets in Python is computing standard math operations such as union, intersection, difference, and symmetric difference.
+
+
+#Complete
