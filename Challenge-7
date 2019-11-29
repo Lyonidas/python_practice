@@ -11,3 +11,12 @@ for show in shows:
 
 for i in range (25, 51):
     print(i)
+
+#3. Print each item in the list from the first Challenge and their indexes.
+
+index = 0
+
+for show in shows:
+    print(show)
+    print(index)
+    index = index + 1
