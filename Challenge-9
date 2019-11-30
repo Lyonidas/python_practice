@@ -11,3 +11,16 @@ user_color = input("Whats your favorite color? ")
 
 with open("Read-File.txt","w") as f:
     f.write(user_color)
+
+#3. Write stuff from list to file.
+
+import csv
+
+watches = [["Top Gun", "Riskey Business", "Minority Report"], ["Titanic", "The Revenant", "Inception"], ["Training Day", "Flight"]]
+
+with open("st.csv", "w", newline='') as f:
+    w = csv.writer(f,
+                   delimiter=",")
+    w.writerow(watches[0])
+    w.writerow(watches[1])
+    w.writerow(watches[2])
