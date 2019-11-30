@@ -24,3 +24,6 @@ with open("st.csv", "w", newline='') as f:
     w.writerow(watches[0])
     w.writerow(watches[1])
     w.writerow(watches[2])
+
+
+#Completed
