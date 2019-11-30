@@ -4,3 +4,10 @@
 
 with open("Read-File.txt", "r") as f:
     print(f.read())
+
+#2. Write a program that asks the user a question and writes the anwser to a file.
+
+user_color = input("Whats your favorite color? ")
+
+with open("Read-File.txt","w") as f:
+    f.write(user_color)
