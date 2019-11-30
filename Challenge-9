@@ -1,0 +1,6 @@
+# Preston Hudson 11/30/19 Challenge 9 Written in Python
+
+#1. Find a file on computer and print its contents.
+
+with open("Read-File.txt", "r") as f:
+    print(f.read())
