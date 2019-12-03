@@ -1,0 +1,11 @@
+# Preston Hudson 12/3/19 Challenge 11 Written in Python
+
+#1. Define a class called apple and give it four instance variables that define attributes of a apple.
+
+class Apple:
+    def __init__(self, c, w, s, m):
+        self.color = c
+        self.weight = w
+        self.shape = s
+        self.mold = m
+        print("Created!")
