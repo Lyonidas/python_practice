@@ -1,1 +1,23 @@
 # Preston Hudson 12/4/19 Challenge 12 Written in Python
+
+#1. Create Rectangle and Square classes with a method that calculates perimeter.
+
+class Rectangle():
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def calculate_perimeter(self):
+        return (self.length + self.width) * 2
+
+class Square():
+    def __init__(self, side):
+        self.side = side
+
+    def calculate_perimeter(self):
+        return self.side * 4
+
+square = Square(4)
+rectangle = Rectangle(22, 5)
+print(rectangle.calculate_perimeter())
+print(square.calculate_perimeter())
