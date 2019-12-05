@@ -38,4 +38,20 @@ print(square.calculate_perimeter())
 #3. Create a class called shape.
 
 rectangle.what_am_i()
-square.what_am_i()
+square.what_am_i
+
+#4. Create a Horse and rider class and use composition.
+
+class Horse():
+    def __init__(self, name, breed, rider):
+        self.name = name
+        self.breed = breed
+        self.rider = rider
+
+class Rider():
+    def __init__(self, name):
+        self.name = name
+
+bill = Rider("Bill Stanley")
+bob = Horse("Bob", "Mustang", bill)
+print(bob.rider.name)
