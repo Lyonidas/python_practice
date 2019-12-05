@@ -2,7 +2,7 @@
 
 #1. Create Rectangle and Square classes with a method that calculates perimeter.
 
-class Rectangle():
+class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
@@ -10,14 +10,26 @@ class Rectangle():
     def calculate_perimeter(self):
         return (self.length + self.width) * 2
 
-class Square():
+class Square(Shape):
     def __init__(self, side):
         self.side = side
 
     def calculate_perimeter(self):
         return self.side * 4
 
+    def change_size(self, new_size):
+        self.side += new_size
+
 square = Square(4)
 rectangle = Rectangle(22, 5)
 print(rectangle.calculate_perimeter())
 print(square.calculate_perimeter())
+
+#2. Define a method in square class that allows you to pass in a number that increases or decreases each of the sides.
+
+#3. Create a class called shape.
+
+class Shape():
+
+    def what_am_i:
+        print("I am a shape.")
