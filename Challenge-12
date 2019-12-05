@@ -1,5 +1,13 @@
 # Preston Hudson 12/4/19 Challenge 12 Written in Python
 
+
+#3.
+
+class Shape():
+
+    def what_am_i(self):
+        print("I am a shape.")
+
 #1. Create Rectangle and Square classes with a method that calculates perimeter.
 
 class Rectangle(Shape):
@@ -29,7 +37,5 @@ print(square.calculate_perimeter())
 
 #3. Create a class called shape.
 
-class Shape():
-
-    def what_am_i:
-        print("I am a shape.")
+rectangle.what_am_i()
+square.what_am_i()
